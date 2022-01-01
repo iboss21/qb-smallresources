@@ -1,0 +1,42 @@
+ConsumeablesEat = {
+    ["burger"]
+    ["chaser"]
+    ["meteorite"]
+    ["hotdog"]
+    ["taco"]
+    ["sandwich"] = math.random(35, 54),
+    ["tosti"] = math.random(40, 50),
+    ["twerks_candy"] = math.random(35, 54),
+    ["snikkel_candy"] = math.random(40, 50),
+}
+
+ConsumeablesDrink = {
+    ["water_bottle"] = math.random(35, 54),
+    ["kurkakola"] = math.random(35, 54),
+    ["coffee"] = math.random(40, 50),
+    ["raine"]
+    ["bean_machine_coffe"]
+    ["sprunk"]
+    ["cola"]
+}
+
+ConsumeablesAlcohol = {
+    ["whiskey"] = math.random(20, 30),
+    ["beer"] = math.random(30, 40),
+    ["vodka"] = math.random(20, 40),
+    ["piswasser"] 
+    ["mount_whisky"]
+    ["tequila"]
+    ["nogo_vodka"]
+    ["shot_mount_whisky"]
+    ["shot_nogo_vodka"]
+    ["shot_tequila"]
+    ["costa_del_perro"]
+    ["rockford_hill"]
+    ["vinewood_red"]
+    ["vinewood_blanc"]
+    ["glass_costa_del_perro"]
+    ["glass_rockford_hill"]
+    ["glass_vinewood_red"] 
+    ["glass_vinewood_blanc"]
+}
