@@ -54,6 +54,7 @@ QBCore.Functions.CreateUseableItem("tosti", function(source, item)
     end
 end)
 
+
 ----------- / Drink
 
 QBCore.Functions.CreateUseableItem("water_bottle", function(source, item)
@@ -79,6 +80,8 @@ QBCore.Functions.CreateUseableItem("kurkakola", function(source, item)
         TriggerClientEvent("consumables:client:Drink", src, item.name)
     end
 end)
+
+
 
 ----------- / Drug
 

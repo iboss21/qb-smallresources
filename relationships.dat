@@ -46,17 +46,19 @@ CAT
 
 #
 PLAYER
-	Like PLAYER
+   Hate PLAYER
 CIVMALE	
-#   Respect CIVMALE
-#   Respect CIVFEMALE
+   Hate CIVMALE
+   Hate CIVFEMALE
+   Hate PLAYER
 CIVFEMALE	
-#   Respect CIVFEMALE
-#   Respect CIVMALE
+   Hate CIVFEMALE
+   Hate CIVMALE
+   Hate PLAYER
 COP 
     Respect MEDIC FIREMAN COP
     Respect ARMY
-	Respect PLAYER
+	Dislake PLAYER
     Like SECURITY_GUARD
 ARMY
     Like ARMY
@@ -72,14 +74,19 @@ FIREMAN
     Respect MEDIC FIREMAN COP
 	Respect PLAYER
 GANG_1
+    Hate PLAYER
 	Respect GANG_1
 GANG_2
+	Hate PLAYER
 	Respect GANG_2
 GANG_9
+	Hate PLAYER
 	Respect GANG_9
 GANG_10
+	Hate PLAYER
 	Respect GANG_10
 HATES_PLAYER
+	Hate PLAYER
 	Hate PLAYER
 	Like HATES_PLAYER AGGRESSIVE_INVESTIGATE
 HEN
